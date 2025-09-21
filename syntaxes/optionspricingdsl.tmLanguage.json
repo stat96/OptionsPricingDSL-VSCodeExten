@@ -1,0 +1,8 @@
+{
+  "scopeName": "source.optionspricingdsl",
+  "patterns": [
+    { "match": "option|type|style|strike|expiry|spot|volatility|rate|model|barrier_up|barrier_down|averaging", "name": "keyword.control.optionspricingdsl" },
+    { "match": "\"[^\"]*\"", "name": "string.quoted.double.optionspricingdsl" },
+    { "match": "#.*$", "name": "comment.line.number-sign.optionspricingdsl" }
+  ]
+}
